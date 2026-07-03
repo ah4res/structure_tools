@@ -1,0 +1,9 @@
+# RSCC work directory
+RSCC/work/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
