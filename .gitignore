@@ -1,6 +1,10 @@
 # RSCC work directory
 RSCC/work/
 
+# PISA work directory
+PISA/results/
+PISA/work/
+
 # Jupyter
 .ipynb_checkpoints/
 
