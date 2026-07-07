@@ -1,0 +1,11 @@
+pdb_id,title,resolution_A,doi,first_author,journal,year
+6XEZ,Structure of SARS-CoV-2 replication-transcription complex bound to nsp13 helicase - nsp13(2)-RTC,3.5,10.1016/j.cell.2020.07.033,"Chen, J.",Cell,2020
+7CXM,Architecture of a SARS-CoV-2 mini replication and transcription complex,2.9,10.1038/s41467-020-19770-1,"Yan, L.",Nat Commun,2020
+7CXN,Architecture of a SARS-CoV-2 mini replication and transcription complex,3.84,10.1038/s41467-020-19770-1,"Yan, L.",Nat Commun,2020
+7RDX,SARS-CoV-2 replication-transcription complex bound to nsp13 helicase - nsp13(2)-RTC - open class,3.1,10.1038/s41594-022-00734-6,"Chen, J.",Nat.Struct.Mol.Biol.,2022
+7RDY,SARS-CoV-2 replication-transcription complex bound to nsp13 helicase - nsp13(2)-RTC - engaged class,3.1,10.1038/s41594-022-00734-6,"Chen, J.",Nat.Struct.Mol.Biol.,2022
+7RDZ,SARS-CoV-2 replication-transcription complex bound to nsp13 helicase - nsp13(2)-RTC - apo class,3.6,10.1038/s41594-022-00734-6,"Chen, J.",Nat.Struct.Mol.Biol.,2022
+7RE0,SARS-CoV-2 replication-transcription complex bound to nsp13 helicase - nsp13(2)-RTC - swiveled class,3.5,10.1038/s41594-022-00734-6,"Chen, J.",Nat.Struct.Mol.Biol.,2022
+7RE1,SARS-CoV-2 replication-transcription complex bound to nsp13 helicase - nsp13(2)-RTC (composite),2.91,10.1038/s41594-022-00734-6,"Chen, J.",Nat.Struct.Mol.Biol.,2022
+7RE2,SARS-CoV-2 replication-transcription complex bound to nsp13 helicase - nsp13(1)-RTC,3.17,10.1038/s41594-022-00734-6,"Chen, J.",Nat.Struct.Mol.Biol.,2022
+7RE3,SARS-CoV-2 replication-transcription complex bound to nsp13 helicase - nsp13(2)-RTC dimer,3.33,10.1038/s41594-022-00734-6,"Chen, J.",Nat.Struct.Mol.Biol.,2022

@@ -1,0 +1,90 @@
+pdb_id,chain_id,entity_description
+6XEZ,A,RNA-directed RNA polymerase
+6XEZ,B,Non-structural protein 8
+6XEZ,C,Non-structural protein 7
+6XEZ,D,Non-structural protein 8
+6XEZ,E,Helicase
+6XEZ,F,Helicase
+6XEZ,P,Product RNA
+6XEZ,T,Template RNA
+7CXM,A,RNA-directed RNA polymerase
+7CXM,B,Non-structural protein 8
+7CXM,C,Non-structural protein 7
+7CXM,D,Non-structural protein 8
+7CXM,E,Helicase
+7CXM,F,Helicase
+7CXM,I,RNA (25-MER)
+7CXM,J,RNA (26-MER)
+7CXM,L,RNA (5'-R(P*UP*UP*UP*UP*UP*U)-3')
+7CXN,A,RNA-directed RNA polymerase
+7CXN,B,Non-structural protein 8
+7CXN,C,Non-structural protein 7
+7CXN,D,Non-structural protein 8
+7CXN,E,Helicase
+7CXN,F,Helicase
+7CXN,I,Primer RNA
+7CXN,J,Template RNA
+7CXN,L,RNA (5'-R(P*UP*UP*UP*UP*UP*U)-3')
+7RDX,A,RNA-directed RNA polymerase
+7RDX,B,Non-structural protein 8
+7RDX,C,Non-structural protein 7
+7RDX,D,Non-structural protein 8
+7RDX,E,Helicase
+7RDX,F,Helicase
+7RDX,P,Product RNA
+7RDX,T,Template RNA
+7RDY,A,RNA-directed RNA polymerase
+7RDY,B,Non-structural protein 8
+7RDY,C,Non-structural protein 7
+7RDY,D,Non-structural protein 8
+7RDY,E,Helicase
+7RDY,F,Helicase
+7RDY,P,Product RNA
+7RDY,T,Template RNA
+7RDZ,A,RNA-directed RNA polymerase
+7RDZ,B,Non-structural protein 8
+7RDZ,C,Non-structural protein 7
+7RDZ,D,Non-structural protein 8
+7RDZ,E,Helicase
+7RDZ,F,Helicase
+7RDZ,P,Product RNA
+7RDZ,T,Template RNA
+7RE0,A,RNA-directed RNA polymerase
+7RE0,B,Non-structural protein 8
+7RE0,C,Non-structural protein 7
+7RE0,D,Non-structural protein 8
+7RE0,E,Helicase
+7RE0,F,Helicase
+7RE0,P,Product RNA
+7RE0,T,Template RNA
+7RE1,A,RNA-directed RNA polymerase
+7RE1,B,Non-structural protein 8
+7RE1,C,Non-structural protein 7
+7RE1,D,Non-structural protein 8
+7RE1,E,Helicase
+7RE1,F,Helicase
+7RE1,P,Product RNA
+7RE1,T,Template RNA
+7RE2,A,RNA-directed RNA polymerase
+7RE2,B,Non-structural protein 8
+7RE2,C,Non-structural protein 7
+7RE2,D,Non-structural protein 8
+7RE2,E,Helicase
+7RE2,P,Product RNA
+7RE2,T,Template RNA
+7RE3,A,RNA-directed RNA polymerase
+7RE3,B,Non-structural protein 8
+7RE3,C,Non-structural protein 7
+7RE3,D,Non-structural protein 8
+7RE3,E,Helicase
+7RE3,F,Helicase
+7RE3,G,RNA-directed RNA polymerase
+7RE3,H,Non-structural protein 8
+7RE3,I,Non-structural protein 7
+7RE3,J,Non-structural protein 8
+7RE3,K,Helicase
+7RE3,L,Helicase
+7RE3,P,Product RNA
+7RE3,Q,Product RNA
+7RE3,T,Template RNA
+7RE3,U,Template RNA

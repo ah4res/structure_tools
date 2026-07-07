@@ -1,0 +1,739 @@
+All required Python packages are already installed.
+
+============================================================
+Processing 6XEZ
+============================================================
+PDB ID     : 6XEZ
+Work dir   : /Users/structure_analysis/github/structure_tools/RSCC/work/6xez
+phenix.real_space_correlation : /Applications/phenix-1.20.1-4487/build/bin/phenix.real_space_correlation
+phenix.map_model_cc           : /Applications/phenix-1.20.1-4487/build/bin/phenix.map_model_cc
+gemmi                         : /Applications/ccp4-8.0/bin/gemmi
+
+All required tools are available.
+Skip (already exists): work/6xez/6xez.pdb
+Experiment methods: ['ELECTRON MICROSCOPY']
+
+--- PDB preview (first 5 lines) ---
+HEADER    TRANSFERASE/HYDROLASE/RNA               14-JUN-20   6XEZ              
+TITLE     STRUCTURE OF SARS-COV-2 REPLICATION-TRANSCRIPTION COMPLEX BOUND TO    
+TITLE    2 NSP13 HELICASE - NSP13(2)-RTC                                        
+COMPND    MOL_ID: 1;                                                            
+COMPND   2 MOLECULE: RNA-DIRECTED RNA POLYMERASE;                               
+chain_id           chain_description  chain_residue_count
+       A RNA-directed RNA polymerase                  932
+      AA               MAGNESIUM ION                    1
+       B    Non-structural protein 8                  199
+       C    Non-structural protein 7                   88
+       D    Non-structural protein 8                  199
+       E                    Helicase                  605
+       F                    Helicase                  605
+       I                    ZINC ION                    1
+       J                    ZINC ION                    1
+       K               MAGNESIUM ION                    1
+       L    ADENOSINE-5'-DIPHOSPHATE                    1
+       M                      CHAPSO                    1
+       N                      CHAPSO                    1
+       O                    ZINC ION                    1
+       P                    ZINC ION                    1
+       Q                    ZINC ION                    1
+       R    ADENOSINE-5'-DIPHOSPHATE                    1
+       S           ALUMINUM FLUORIDE                    1
+       T               MAGNESIUM ION                    1
+       U                      CHAPSO                    1
+       V                    ZINC ION                    1
+       W                    ZINC ION                    1
+       X                    ZINC ION                    1
+       Y    ADENOSINE-5'-DIPHOSPHATE                    1
+       Z           ALUMINUM FLUORIDE                    1
+Resolved data mode: cryoem
+Primary EMDB ID: EMD-22160
+Skip (already exists): work/6xez/emd_22160.map
+Resolution: 3.5 Å
+Density data : work/6xez/emd_22160.map
+Phenix tool  : map_model_cc
+  Skip Phenix (existing CSV): work/6xez/6xez_rscc_atom.csv
+  Saved: work/6xez/6xez_rscc_chains_AEF_atom.csv (2118 rows)
+  Saved: /Users/structure_analysis/github/structure_tools/RSCC/work/plots_aef/6xez_rscc_chains_AEF_atom.png
+  Saved: /Users/structure_analysis/github/structure_tools/RSCC/work/plots_aef/6xez_rscc_chain_A.png
+  Saved: /Users/structure_analysis/github/structure_tools/RSCC/work/plots_aef/6xez_rscc_chain_E.png
+  Saved: /Users/structure_analysis/github/structure_tools/RSCC/work/plots_aef/6xez_rscc_chain_F.png
+
+============================================================
+Processing 7XCM
+============================================================
+PDB ID     : 7XCM
+Work dir   : /Users/structure_analysis/github/structure_tools/RSCC/work/7xcm
+phenix.real_space_correlation : /Applications/phenix-1.20.1-4487/build/bin/phenix.real_space_correlation
+phenix.map_model_cc           : /Applications/phenix-1.20.1-4487/build/bin/phenix.map_model_cc
+gemmi                         : /Applications/ccp4-8.0/bin/gemmi
+
+All required tools are available.
+Skip (already exists): work/7xcm/7xcm.pdb
+Experiment methods: ['X-RAY DIFFRACTION']
+
+--- PDB preview (first 5 lines) ---
+HEADER    TRANSFERASE                             24-MAR-22   7XCM              
+TITLE     CRYSTAL STRUCTURE OF SULFITE MTTB STRUCTURE AT 3.2 A RESOLUTION       
+COMPND    MOL_ID: 1;                                                            
+COMPND   2 MOLECULE: TRIMETHYLAMINE METHYLTRANSFERASE;                          
+COMPND   3 CHAIN: A, B, C, D, E, F;                                             
+chain_id                              chain_description  chain_residue_count
+       A               Trimethylamine methyltransferase                  503
+      AA 3-METHYL-5-SULFO-PYRROLIDINE-2-CARBOXYLIC ACID                    1
+       B               Trimethylamine methyltransferase                  503
+      BA                                     SODIUM ION                    1
+       C               Trimethylamine methyltransferase                  503
+      CA                                       GLYCEROL                    1
+       D               Trimethylamine methyltransferase                  503
+       E               Trimethylamine methyltransferase                  503
+       F               Trimethylamine methyltransferase                  503
+       G 3-METHYL-5-SULFO-PYRROLIDINE-2-CARBOXYLIC ACID                    1
+       H                                     SODIUM ION                    1
+       I                                       GLYCEROL                    1
+       J                                       GLYCEROL                    1
+       K 3-METHYL-5-SULFO-PYRROLIDINE-2-CARBOXYLIC ACID                    1
+       L                                     SODIUM ION                    1
+       M                                       GLYCEROL                    1
+       N                                       GLYCEROL                    1
+       O 3-METHYL-5-SULFO-PYRROLIDINE-2-CARBOXYLIC ACID                    1
+       P                                     SODIUM ION                    1
+       Q                                       GLYCEROL                    1
+       R 3-METHYL-5-SULFO-PYRROLIDINE-2-CARBOXYLIC ACID                    1
+       S                                     SODIUM ION                    1
+       T                                       GLYCEROL                    1
+       U                                       GLYCEROL                    1
+       V                                       GLYCEROL                    1
+       W 3-METHYL-5-SULFO-PYRROLIDINE-2-CARBOXYLIC ACID                    1
+       X                                     SODIUM ION                    1
+       Y                                       GLYCEROL                    1
+       Z                                       GLYCEROL                    1
+Resolved data mode: xray
+Skip (already exists): work/7xcm/7xcm-sf.cif
+Skip (already exists): work/7xcm/7xcm.mtz
+Density data : work/7xcm/7xcm.mtz
+Phenix tool  : real_space_correlation
+  Skip Phenix (existing CSV): work/7xcm/7xcm_rscc_atom.csv
+  Saved: work/7xcm/7xcm_rscc_chains_AEF_atom.csv (1482 rows)
+  Saved: /Users/structure_analysis/github/structure_tools/RSCC/work/plots_aef/7xcm_rscc_chains_AEF_atom.png
+  Saved: /Users/structure_analysis/github/structure_tools/RSCC/work/plots_aef/7xcm_rscc_chain_A.png
+  Saved: /Users/structure_analysis/github/structure_tools/RSCC/work/plots_aef/7xcm_rscc_chain_E.png
+  Saved: /Users/structure_analysis/github/structure_tools/RSCC/work/plots_aef/7xcm_rscc_chain_F.png
+
+============================================================
+Processing 7XCN
+============================================================
+PDB ID     : 7XCN
+Work dir   : /Users/structure_analysis/github/structure_tools/RSCC/work/7xcn
+phenix.real_space_correlation : /Applications/phenix-1.20.1-4487/build/bin/phenix.real_space_correlation
+phenix.map_model_cc           : /Applications/phenix-1.20.1-4487/build/bin/phenix.map_model_cc
+gemmi                         : /Applications/ccp4-8.0/bin/gemmi
+
+All required tools are available.
+Skip (already exists): work/7xcn/7xcn.pdb
+Experiment methods: ['X-RAY DIFFRACTION']
+
+--- PDB preview (first 5 lines) ---
+HEADER    TRANSFERASE                             24-MAR-22   7XCN              
+Traceback (most recent call last):
+  File "/Users/structure_analysis/github/structure_tools/RSCC/batch_run_rscc_aef.py", line 241, in main
+    results.append(process_pdb(pdb_id, cells))
+  File "/Users/structure_analysis/github/structure_tools/RSCC/batch_run_rscc_aef.py", line 210, in process_pdb
+    ns = run_notebook_pipeline(pdb_id, cells)
+  File "/Users/structure_analysis/github/structure_tools/RSCC/batch_run_rscc_aef.py", line 131, in run_notebook_pipeline
+    exec(cell_src, ns)
+  File "<string>", line 12, in <module>
+RuntimeError: phenix.real_space_correlation failed (exit 1)
+TITLE     CRYSTAL STRUCTURE OF THE MTTB-MTTC COMPLEX AT 2.7 A RESOLUTION        
+COMPND    MOL_ID: 1;                                                            
+COMPND   2 MOLECULE: TRIMETHYLAMINE METHYLTRANSFERASE;                          
+COMPND   3 CHAIN: A, B, C, D, E, F;                                             
+chain_id                chain_description  chain_residue_count
+       A Trimethylamine methyltransferase                  503
+       B Trimethylamine methyltransferase                  503
+       C Trimethylamine methyltransferase                  503
+       D Trimethylamine methyltransferase                  503
+       E Trimethylamine methyltransferase                  503
+       F Trimethylamine methyltransferase                  503
+       M                         GLYCEROL                    1
+       N                         GLYCEROL                    1
+       O                         GLYCEROL                    1
+       P                         GLYCEROL                    1
+       Q  5-HYDROXYBENZIMIDAZOLYLCOBAMIDE                    1
+       R  5-HYDROXYBENZIMIDAZOLYLCOBAMIDE                    1
+       S  5-HYDROXYBENZIMIDAZOLYLCOBAMIDE                    1
+       T  5-HYDROXYBENZIMIDAZOLYLCOBAMIDE                    1
+       U  5-HYDROXYBENZIMIDAZOLYLCOBAMIDE                    1
+       V  5-HYDROXYBENZIMIDAZOLYLCOBAMIDE                    1
+Resolved data mode: xray
+Skip (already exists): work/7xcn/7xcn-sf.cif
+Skip (already exists): work/7xcn/7xcn.mtz
+Density data : work/7xcn/7xcn.mtz
+Phenix tool  : real_space_correlation
+  Running Phenix...
+Command: /Applications/phenix-1.20.1-4487/build/bin/phenix.real_space_correlation work/7xcn/7xcn.pdb work/7xcn/7xcn.mtz detail=residue
+Running...
+
+
+Multiple equally suitable arrays of observed xray data found.
+
+Possible choices:
+  work/7xcn/7xcn.mtz:IMEAN,SIGIMEAN
+  work/7xcn/7xcn.mtz:I(+),SIGI(+),I(-),SIGI(-),merged
+
+Please use .labels
+to specify an unambiguous substring of the target label.
+
+Sorry: Multiple equally suitable arrays of observed xray data found.
+
+FAILED 7XCN: phenix.real_space_correlation failed (exit 1)
+
+============================================================
+Processing 7RDX
+============================================================
+PDB ID     : 7RDX
+Work dir   : /Users/structure_analysis/github/structure_tools/RSCC/work/7rdx
+phenix.real_space_correlation : /Applications/phenix-1.20.1-4487/build/bin/phenix.real_space_correlation
+phenix.map_model_cc           : /Applications/phenix-1.20.1-4487/build/bin/phenix.map_model_cc
+gemmi                         : /Applications/ccp4-8.0/bin/gemmi
+
+All required tools are available.
+Skip (already exists): work/7rdx/7rdx.pdb
+Experiment methods: ['ELECTRON MICROSCOPY']
+
+--- PDB preview (first 5 lines) ---
+HEADER    REPLICATION/TRANSCRIPTION               12-JUL-21   7RDX              
+TITLE     SARS-COV-2 REPLICATION-TRANSCRIPTION COMPLEX BOUND TO NSP13 HELICASE -
+TITLE    2 NSP13(2)-RTC - OPEN CLASS                                            
+COMPND    MOL_ID: 1;                                                            
+COMPND   2 MOLECULE: RNA-DIRECTED RNA POLYMERASE;                               
+chain_id           chain_description  chain_residue_count
+       A RNA-directed RNA polymerase                  932
+      AA           ALUMINUM FLUORIDE                    1
+       B    Non-structural protein 8                  199
+       C    Non-structural protein 7                   88
+       D    Non-structural protein 8                  199
+       E                    Helicase                  605
+       F                    Helicase                  605
+       I                    ZINC ION                    1
+       J                    ZINC ION                    1
+       K               MAGNESIUM ION                    1
+       L    ADENOSINE-5'-DIPHOSPHATE                    1
+       M                      CHAPSO                    1
+       N                      CHAPSO                    1
+       O                    ZINC ION                    1
+       P                    ZINC ION                    1
+       Q                    ZINC ION                    1
+       R    ADENOSINE-5'-DIPHOSPHATE                    1
+       S               MAGNESIUM ION                    1
+       T           ALUMINUM FLUORIDE                    1
+       U                      CHAPSO                    1
+       V                    ZINC ION                    1
+       W                    ZINC ION                    1
+       X                    ZINC ION                    1
+       Y    ADENOSINE-5'-DIPHOSPHATE                    1
+       Z               MAGNESIUM ION                    1
+Resolved data mode: cryoem
+Primary EMDB ID: EMD-24426
+Downloaded: work/7rdx/emd_24426.map.gz (123,805,841 bytes)
+Decompressed: work/7rdx/emd_24426.map (131,073,024 bytes)
+Resolution: 3.1 Å
+Density data : work/7rdx/emd_24426.map
+Phenix tool  : map_model_cc
+  Skip Phenix (existing CSV): work/7rdx/7rdx_rscc_atom.csv
+  Saved: work/7rdx/7rdx_rscc_chains_AEF_atom.csv (2107 rows)
+  Saved: /Users/structure_analysis/github/structure_tools/RSCC/work/plots_aef/7rdx_rscc_chains_AEF_atom.png
+  Saved: /Users/structure_analysis/github/structure_tools/RSCC/work/plots_aef/7rdx_rscc_chain_A.png
+  Saved: /Users/structure_analysis/github/structure_tools/RSCC/work/plots_aef/7rdx_rscc_chain_E.png
+  Saved: /Users/structure_analysis/github/structure_tools/RSCC/work/plots_aef/7rdx_rscc_chain_F.png
+
+============================================================
+Processing 7RDY
+============================================================
+PDB ID     : 7RDY
+Work dir   : /Users/structure_analysis/github/structure_tools/RSCC/work/7rdy
+phenix.real_space_correlation : /Applications/phenix-1.20.1-4487/build/bin/phenix.real_space_correlation
+phenix.map_model_cc           : /Applications/phenix-1.20.1-4487/build/bin/phenix.map_model_cc
+gemmi                         : /Applications/ccp4-8.0/bin/gemmi
+
+All required tools are available.
+Skip (already exists): work/7rdy/7rdy.pdb
+Experiment methods: ['ELECTRON MICROSCOPY']
+
+--- PDB preview (first 5 lines) ---
+HEADER    REPLICATION/TRANSCRIPTION               12-JUL-21   7RDY              
+TITLE     SARS-COV-2 REPLICATION-TRANSCRIPTION COMPLEX BOUND TO NSP13 HELICASE -
+TITLE    2 NSP13(2)-RTC - ENGAGED CLASS                                         
+CAVEAT     7RDY    1N7 A 1005 HAS WRONG CHIRALITY AT ATOM C6 1N7 A 1005 HAS     
+CAVEAT   2 7RDY    WRONG CHIRALITY AT ATOM C18                                  
+chain_id           chain_description  chain_residue_count
+       A RNA-directed RNA polymerase                  932
+      AA           ALUMINUM FLUORIDE                    1
+       B    Non-structural protein 8                  199
+       C    Non-structural protein 7                   88
+       D    Non-structural protein 8                  199
+       E                    Helicase                  605
+       F                    Helicase                  605
+       I                    ZINC ION                    1
+       J                    ZINC ION                    1
+       K               MAGNESIUM ION                    1
+       L    ADENOSINE-5'-DIPHOSPHATE                    1
+       M                      CHAPSO                    1
+       N                      CHAPSO                    1
+       O                      CHAPSO                    1
+       P                    ZINC ION                    1
+       Q                    ZINC ION                    1
+       R                    ZINC ION                    1
+       S    ADENOSINE-5'-DIPHOSPHATE                    1
+       T               MAGNESIUM ION                    1
+       U           ALUMINUM FLUORIDE                    1
+       V                    ZINC ION                    1
+       W                    ZINC ION                    1
+       X                    ZINC ION                    1
+       Y    ADENOSINE-5'-DIPHOSPHATE                    1
+       Z               MAGNESIUM ION                    1
+Resolved data mode: cryoem
+Primary EMDB ID: EMD-24427
+Downloaded: work/7rdy/emd_24427.map.gz (116,486,737 bytes)
+Decompressed: work/7rdy/emd_24427.map (131,073,024 bytes)
+Resolution: 3.1 Å
+Density data : work/7rdy/emd_24427.map
+Phenix tool  : map_model_cc
+  Skip Phenix (existing CSV): work/7rdy/7rdy_rscc_atom.csv
+  Saved: work/7rdy/7rdy_rscc_chains_AEF_atom.csv (2107 rows)
+  Saved: /Users/structure_analysis/github/structure_tools/RSCC/work/plots_aef/7rdy_rscc_chains_AEF_atom.png
+  Saved: /Users/structure_analysis/github/structure_tools/RSCC/work/plots_aef/7rdy_rscc_chain_A.png
+  Saved: /Users/structure_analysis/github/structure_tools/RSCC/work/plots_aef/7rdy_rscc_chain_E.png
+  Saved: /Users/structure_analysis/github/structure_tools/RSCC/work/plots_aef/7rdy_rscc_chain_F.png
+
+============================================================
+Processing 7RDZ
+============================================================
+PDB ID     : 7RDZ
+Work dir   : /Users/structure_analysis/github/structure_tools/RSCC/work/7rdz
+phenix.real_space_correlation : /Applications/phenix-1.20.1-4487/build/bin/phenix.real_space_correlation
+phenix.map_model_cc           : /Applications/phenix-1.20.1-4487/build/bin/phenix.map_model_cc
+gemmi                         : /Applications/ccp4-8.0/bin/gemmi
+
+All required tools are available.
+Skip (already exists): work/7rdz/7rdz.pdb
+Experiment methods: ['ELECTRON MICROSCOPY']
+
+--- PDB preview (first 5 lines) ---
+HEADER    REPLICATION/TRANSCRIPTION               12-JUL-21   7RDZ              
+TITLE     SARS-COV-2 REPLICATION-TRANSCRIPTION COMPLEX BOUND TO NSP13 HELICASE -
+TITLE    2 NSP13(2)-RTC - APO CLASS                                             
+COMPND    MOL_ID: 1;                                                            
+COMPND   2 MOLECULE: RNA-DIRECTED RNA POLYMERASE;                               
+chain_id           chain_description  chain_residue_count
+       A RNA-directed RNA polymerase                  932
+       B    Non-structural protein 8                  199
+       C    Non-structural protein 7                   88
+       D    Non-structural protein 8                  199
+       E                    Helicase                  605
+       F                    Helicase                  605
+       I                    ZINC ION                    1
+       J                    ZINC ION                    1
+       K               MAGNESIUM ION                    1
+       L    ADENOSINE-5'-DIPHOSPHATE                    1
+       M                    ZINC ION                    1
+       N                    ZINC ION                    1
+       O                    ZINC ION                    1
+       P                    ZINC ION                    1
+       Q                    ZINC ION                    1
+       R                    ZINC ION                    1
+       T                Template RNA                   55
+Resolved data mode: cryoem
+Primary EMDB ID: EMD-24428
+Skip (already exists): work/7rdz/emd_24428.map
+Resolution: 3.6 Å
+Density data : work/7rdz/emd_24428.map
+Phenix tool  : map_model_cc
+  Skip Phenix (existing CSV): work/7rdz/7rdz_rscc_atom.csv
+  Saved: work/7rdz/7rdz_rscc_chains_AEF_atom.csv (2107 rows)
+  Saved: /Users/structure_analysis/github/structure_tools/RSCC/work/plots_aef/7rdz_rscc_chains_AEF_atom.png
+  Saved: /Users/structure_analysis/github/structure_tools/RSCC/work/plots_aef/7rdz_rscc_chain_A.png
+  Saved: /Users/structure_analysis/github/structure_tools/RSCC/work/plots_aef/7rdz_rscc_chain_E.png
+  Saved: /Users/structure_analysis/github/structure_tools/RSCC/work/plots_aef/7rdz_rscc_chain_F.png
+
+============================================================
+Processing 7RE0
+============================================================
+PDB ID     : 7RE0
+Work dir   : /Users/structure_analysis/github/structure_tools/RSCC/work/7re0
+phenix.real_space_correlation : /Applications/phenix-1.20.1-4487/build/bin/phenix.real_space_correlation
+phenix.map_model_cc           : /Applications/phenix-1.20.1-4487/build/bin/phenix.map_model_cc
+gemmi                         : /Applications/ccp4-8.0/bin/gemmi
+
+All required tools are available.
+Skip (already exists): work/7re0/7re0.pdb
+Experiment methods: ['ELECTRON MICROSCOPY']
+
+--- PDB preview (first 5 lines) ---
+HEADER    REPLICATION/TRANSCRIPTION               12-JUL-21   7RE0              
+TITLE     SARS-COV-2 REPLICATION-TRANSCRIPTION COMPLEX BOUND TO NSP13 HELICASE -
+TITLE    2 NSP13(2)-RTC - SWIVELED CLASS                                        
+COMPND    MOL_ID: 1;                                                            
+COMPND   2 MOLECULE: RNA-DIRECTED RNA POLYMERASE;                               
+chain_id           chain_description  chain_residue_count
+       A RNA-directed RNA polymerase                  932
+       B    Non-structural protein 8                  199
+       C    Non-structural protein 7                   88
+       D    Non-structural protein 8                  199
+       E                    Helicase                  605
+       F                    Helicase                  605
+       I                    ZINC ION                    1
+       J                    ZINC ION                    1
+       K               MAGNESIUM ION                    1
+       L    ADENOSINE-5'-DIPHOSPHATE                    1
+       M                    ZINC ION                    1
+       N                    ZINC ION                    1
+       O                    ZINC ION                    1
+       P    ADENOSINE-5'-DIPHOSPHATE                    1
+       Q               MAGNESIUM ION                    1
+       R           ALUMINUM FLUORIDE                    1
+       S                    ZINC ION                    1
+       T                    ZINC ION                    1
+       U                    ZINC ION                    1
+       V    ADENOSINE-5'-DIPHOSPHATE                    1
+       W               MAGNESIUM ION                    1
+       X           ALUMINUM FLUORIDE                    1
+Resolved data mode: cryoem
+Primary EMDB ID: EMD-24429
+Downloaded: work/7re0/emd_24429.map.gz (114,216,685 bytes)
+Decompressed: work/7re0/emd_24429.map (131,073,024 bytes)
+Resolution: 3.5 Å
+Density data : work/7re0/emd_24429.map
+Phenix tool  : map_model_cc
+  Running Phenix...
+Command: /Applications/phenix-1.20.1-4487/build/bin/phenix.map_model_cc /Users/structure_analysis/github/structure_tools/RSCC/work/7re0/7re0.pdb /Users/structure_analysis/github/structure_tools/RSCC/work/7re0/emd_24429.map resolution=3.5
+Running...
+
+Output format: map_model_cc
+
+--- Output tail (last 20 lines) ---
+T   A  132  0.7215  295.760 1.00
+T   C  133  0.6298  300.930 1.00
+T   G  134  0.5884  304.450 1.00
+T   C  135  0.5963  306.040 1.00
+A  ZN 2000  0.8896   80.740 1.00
+A  ZN 2001  0.8401   81.370 1.00
+A  MG 2002  0.8648   70.000 1.00
+A ADP 2003  0.7898   78.660 1.00
+E  ZN 1000  0.1713   90.710 1.00
+E  ZN 1001  0.7811  103.750 1.00
+E  ZN 1002  0.6669   87.500 1.00
+E ADP 1003  0.5096   85.050 1.00
+E  MG 1004  0.6860   85.820 1.00
+E AF3 1005  0.6701   87.220 1.00
+F  ZN 1000  0.6359   79.200 1.00
+F  ZN 1001  0.4948  106.260 1.00
+F  ZN 1002  0.7154   85.020 1.00
+F ADP 1003  0.5914  108.160 1.00
+F  MG 1004  0.8884  106.820 1.00
+F AF3 1005  0.6692  106.090 1.00
+Parsed 2638 records (map_model_cc)
+  ATOM   : 2624
+  HETATM : 14
+
+Chains: ['A', 'B', 'C', 'D', 'E', 'F', 'P', 'T']
+
+--- ATOM: first 10 rows ---
+Saved (ATOM): /Users/structure_analysis/github/structure_tools/RSCC/work/7re0/7re0_rscc_atom.csv  (2624 rows)
+Saved (HETATM): /Users/structure_analysis/github/structure_tools/RSCC/work/7re0/7re0_rscc_hetatm.csv  (14 rows)
+
+--- ATOM CSV preview (first 5 lines) ---
+chain_id,chain_description,chain_residue_count,residue_number,residue_name,rscc
+A,RNA-directed RNA polymerase,932,3,ASP,0.7601
+A,RNA-directed RNA polymerase,932,4,ALA,0.7447
+A,RNA-directed RNA polymerase,932,5,GLN,0.8235
+A,RNA-directed RNA polymerase,932,6,SER,0.8578
+A,RNA-directed RNA polymerase,932,7,PHE,0.8822
+  Saved: work/7re0/7re0_rscc_chains_AEF_atom.csv (2107 rows)
+  Saved: /Users/structure_analysis/github/structure_tools/RSCC/work/plots_aef/7re0_rscc_chains_AEF_atom.png
+  Saved: /Users/structure_analysis/github/structure_tools/RSCC/work/plots_aef/7re0_rscc_chain_A.png
+  Saved: /Users/structure_analysis/github/structure_tools/RSCC/work/plots_aef/7re0_rscc_chain_E.png
+  Saved: /Users/structure_analysis/github/structure_tools/RSCC/work/plots_aef/7re0_rscc_chain_F.png
+
+============================================================
+Processing 7RE1
+============================================================
+PDB ID     : 7RE1
+Work dir   : /Users/structure_analysis/github/structure_tools/RSCC/work/7re1
+phenix.real_space_correlation : /Applications/phenix-1.20.1-4487/build/bin/phenix.real_space_correlation
+phenix.map_model_cc           : /Applications/phenix-1.20.1-4487/build/bin/phenix.map_model_cc
+gemmi                         : /Applications/ccp4-8.0/bin/gemmi
+
+All required tools are available.
+Skip (already exists): work/7re1/7re1.pdb
+Experiment methods: ['ELECTRON MICROSCOPY']
+
+--- PDB preview (first 5 lines) ---
+HEADER    REPLICATION/TRANSCRIPTION               12-JUL-21   7RE1              
+TITLE     SARS-COV-2 REPLICATION-TRANSCRIPTION COMPLEX BOUND TO NSP13 HELICASE -
+TITLE    2 NSP13(2)-RTC (COMPOSITE)                                             
+CAVEAT     7RE1    1N7 A 1005 HAS WRONG CHIRALITY AT ATOM C6 1N7 A 1005 HAS     
+CAVEAT   2 7RE1    WRONG CHIRALITY AT ATOM C18                                  
+chain_id           chain_description  chain_residue_count
+       A RNA-directed RNA polymerase                  932
+      AA           ALUMINUM FLUORIDE                    1
+       B    Non-structural protein 8                  199
+       C    Non-structural protein 7                   88
+       D    Non-structural protein 8                  199
+       E                    Helicase                  605
+       F                    Helicase                  605
+       I                    ZINC ION                    1
+       J                    ZINC ION                    1
+       K               MAGNESIUM ION                    1
+       L    ADENOSINE-5'-DIPHOSPHATE                    1
+       M                      CHAPSO                    1
+       N                      CHAPSO                    1
+       O                    ZINC ION                    1
+       P                    ZINC ION                    1
+       Q                    ZINC ION                    1
+       R    ADENOSINE-5'-DIPHOSPHATE                    1
+       S               MAGNESIUM ION                    1
+       T           ALUMINUM FLUORIDE                    1
+       U                      CHAPSO                    1
+       V                    ZINC ION                    1
+       W                    ZINC ION                    1
+       X                    ZINC ION                    1
+       Y    ADENOSINE-5'-DIPHOSPHATE                    1
+       Z               MAGNESIUM ION                    1
+Resolved data mode: cryoem
+Primary EMDB ID: EMD-24430
+Downloaded: work/7re1/emd_24430.map.gz (64,338,051 bytes)
+Decompressed: work/7re1/emd_24430.map (131,073,024 bytes)
+Resolution: 2.91 Å
+Density data : work/7re1/emd_24430.map
+Phenix tool  : map_model_cc
+  Skip Phenix (existing CSV): work/7re1/7re1_rscc_atom.csv
+  Saved: work/7re1/7re1_rscc_chains_AEF_atom.csv (2107 rows)
+  Saved: /Users/structure_analysis/github/structure_tools/RSCC/work/plots_aef/7re1_rscc_chains_AEF_atom.png
+  Saved: /Users/structure_analysis/github/structure_tools/RSCC/work/plots_aef/7re1_rscc_chain_A.png
+  Saved: /Users/structure_analysis/github/structure_tools/RSCC/work/plots_aef/7re1_rscc_chain_E.png
+  Saved: /Users/structure_analysis/github/structure_tools/RSCC/work/plots_aef/7re1_rscc_chain_F.png
+
+============================================================
+Processing 7RE2
+============================================================
+PDB ID     : 7RE2
+Work dir   : /Users/structure_analysis/github/structure_tools/RSCC/work/7re2
+phenix.real_space_correlation : /Applications/phenix-1.20.1-4487/build/bin/phenix.real_space_correlation
+phenix.map_model_cc           : /Applications/phenix-1.20.1-4487/build/bin/phenix.map_model_cc
+gemmi                         : /Applications/ccp4-8.0/bin/gemmi
+
+All required tools are available.
+Skip (already exists): work/7re2/7re2.pdb
+Experiment methods: ['ELECTRON MICROSCOPY']
+
+--- PDB preview (first 5 lines) ---
+HEADER    REPLICATION/TRANSCRIPTION               12-JUL-21   7RE2              
+TITLE     SARS-COV-2 REPLICATION-TRANSCRIPTION COMPLEX BOUND TO NSP13 HELICASE -
+TITLE    2 NSP13(1)-RTC                                                         
+CAVEAT     7RE2    1N7 A 1005 HAS WRONG CHIRALITY AT ATOM C6 1N7 A 1005 HAS     
+CAVEAT   2 7RE2    WRONG CHIRALITY AT ATOM C18                                  
+chain_id           chain_description  chain_residue_count
+       A RNA-directed RNA polymerase                  932
+       B    Non-structural protein 8                  199
+       C    Non-structural protein 7                   88
+       D    Non-structural protein 8                  199
+       E                    Helicase                  605
+       H                    ZINC ION                    1
+       I                    ZINC ION                    1
+       J               MAGNESIUM ION                    1
+       K    ADENOSINE-5'-DIPHOSPHATE                    1
+       L                      CHAPSO                    1
+       M                      CHAPSO                    1
+       N                    ZINC ION                    1
+       O                    ZINC ION                    1
+       P                    ZINC ION                    1
+       Q    ADENOSINE-5'-DIPHOSPHATE                    1
+       R               MAGNESIUM ION                    1
+       S           ALUMINUM FLUORIDE                    1
+       T                      CHAPSO                    1
+Resolved data mode: cryoem
+Primary EMDB ID: EMD-24431
+Downloaded: work/7re2/emd_24431.map.gz (67,895,044 bytes)
+Decompressed: work/7re2/emd_24431.map (131,073,024 bytes)
+Resolution: 3.17 Å
+Density data : work/7re2/emd_24431.map
+Phenix tool  : map_model_cc
+  Running Phenix...
+Command: /Applications/phenix-1.20.1-4487/build/bin/phenix.map_model_cc /Users/structure_analysis/github/structure_tools/RSCC/work/7re2/7re2.pdb /Users/structure_analysis/github/structure_tools/RSCC/work/7re2/emd_24431.map resolution=3.17
+Running...
+
+Output format: map_model_cc
+
+--- Output tail (last 20 lines) ---
+T   G   48  0.7130  222.130 1.00
+T   C   49  0.6274  224.810 1.00
+T   U   50  0.5768  228.430 1.00
+T   A   51  0.4978  236.180 1.00
+T   C   52  0.4468  240.720 1.00
+T   G   53  0.4488  244.990 1.00
+T   C   54  0.4957  245.250 1.00
+A  ZN 1001  0.9012   60.200 1.00
+A  ZN 1002  0.9330   60.400 1.00
+A  MG 1003  0.8058   46.480 1.00
+A ADP 1004  0.7538   52.570 1.00
+A 1N7 1005  0.6277   70.640 1.00
+A 1N7 1006  0.7544   44.930 1.00
+E  ZN  701  0.7722  101.500 1.00
+E  ZN  702  0.6690  156.870 1.00
+E  ZN  703  0.8615  124.340 1.00
+E ADP  704  0.7286  120.710 1.00
+E  MG  705  0.7296   99.120 1.00
+E AF3  706  0.7650  121.060 1.00
+E 1N7  707  0.6940   83.350 1.00
+Parsed 2043 records (map_model_cc)
+  ATOM   : 2034
+  HETATM : 9
+
+Chains: ['A', 'B', 'C', 'D', 'E', 'P', 'T']
+
+--- ATOM: first 10 rows ---
+Saved (ATOM): /Users/structure_analysis/github/structure_tools/RSCC/work/7re2/7re2_rscc_atom.csv  (2034 rows)
+Saved (HETATM): /Users/structure_analysis/github/structure_tools/RSCC/work/7re2/7re2_rscc_hetatm.csv  (9 rows)
+
+--- ATOM CSV preview (first 5 lines) ---
+chain_id,chain_description,chain_residue_count,residue_number,residue_name,rscc
+A,RNA-directed RNA polymerase,932,3,ASP,0.6788
+A,RNA-directed RNA polymerase,932,4,ALA,0.7521
+A,RNA-directed RNA polymerase,932,5,GLN,0.8346
+A,RNA-directed RNA polymerase,932,6,SER,0.8184
+A,RNA-directed RNA polymerase,932,7,PHE,0.9137
+  Saved: work/7re2/7re2_rscc_chains_AEF_atom.csv (1517 rows)
+  Saved: /Users/structure_analysis/github/structure_tools/RSCC/work/plots_aef/7re2_rscc_chains_AEF_atom.png
+  Saved: /Users/structure_analysis/github/structure_tools/RSCC/work/plots_aef/7re2_rscc_chain_A.png
+  Saved: /Users/structure_analysis/github/structure_tools/RSCC/work/plots_aef/7re2_rscc_chain_E.png
+  WARNING: chain F not found for 7re2
+
+============================================================
+Processing 7RE3
+============================================================
+PDB ID     : 7RE3
+Work dir   : /Users/structure_analysis/github/structure_tools/RSCC/work/7re3
+phenix.real_space_correlation : /Applications/phenix-1.20.1-4487/build/bin/phenix.real_space_correlation
+phenix.map_model_cc           : /Applications/phenix-1.20.1-4487/build/bin/phenix.map_model_cc
+gemmi                         : /Applications/ccp4-8.0/bin/gemmi
+
+All required tools are available.
+Downloaded: work/7re3/7re3.pdb (3,678,210 bytes)
+Experiment methods: ['ELECTRON MICROSCOPY']
+
+--- PDB preview (first 5 lines) ---
+HEADER    REPLICATION/TRANSCRIPTION               12-JUL-21   7RE3              
+TITLE     SARS-COV-2 REPLICATION-TRANSCRIPTION COMPLEX BOUND TO NSP13 HELICASE -
+TITLE    2 NSP13(2)-RTC DIMER                                                   
+COMPND    MOL_ID: 1;                                                            
+COMPND   2 MOLECULE: RNA-DIRECTED RNA POLYMERASE;                               
+chain_id           chain_description  chain_residue_count
+       A RNA-directed RNA polymerase                  932
+      AA                      CHAPSO                    1
+       B    Non-structural protein 8                  199
+      BA                    ZINC ION                    1
+       C    Non-structural protein 7                   88
+      CA                    ZINC ION                    1
+       D    Non-structural protein 8                  199
+      DA                    ZINC ION                    1
+       E                    Helicase                  605
+      EA    ADENOSINE-5'-DIPHOSPHATE                    1
+       F                    Helicase                  605
+      FA               MAGNESIUM ION                    1
+       G RNA-directed RNA polymerase                  932
+      GA           ALUMINUM FLUORIDE                    1
+       H    Non-structural protein 8                  199
+      HA                    ZINC ION                    1
+       I    Non-structural protein 7                   88
+      IA                    ZINC ION                    1
+       J    Non-structural protein 8                  199
+      JA               MAGNESIUM ION                    1
+       K                    Helicase                  605
+      KA    ADENOSINE-5'-DIPHOSPHATE                    1
+       L                    Helicase                  605
+      LA                    ZINC ION                    1
+      MA                    ZINC ION                    1
+      NA                    ZINC ION                    1
+      OA    ADENOSINE-5'-DIPHOSPHATE                    1
+       P                 Product RNA                   35
+      PA               MAGNESIUM ION                    1
+       Q                    ZINC ION                    1
+      QA           ALUMINUM FLUORIDE                    1
+       R                    ZINC ION                    1
+      RA                      CHAPSO                    1
+       S               MAGNESIUM ION                    1
+      SA                    ZINC ION                    1
+       T    ADENOSINE-5'-DIPHOSPHATE                    1
+      TA                    ZINC ION                    1
+       U                    ZINC ION                    1
+      UA                    ZINC ION                    1
+       V                    ZINC ION                    1
+      VA    ADENOSINE-5'-DIPHOSPHATE                    1
+       W                    ZINC ION                    1
+      WA               MAGNESIUM ION                    1
+       X    ADENOSINE-5'-DIPHOSPHATE                    1
+      XA           ALUMINUM FLUORIDE                    1
+       Y               MAGNESIUM ION                    1
+       Z           ALUMINUM FLUORIDE                    1
+Resolved data mode: cryoem
+Primary EMDB ID: EMD-24432
+Downloaded: work/7re3/emd_24432.map.gz (67,645,406 bytes)
+Decompressed: work/7re3/emd_24432.map (131,073,024 bytes)
+Resolution: 3.33 Å
+Density data : work/7re3/emd_24432.map
+Phenix tool  : map_model_cc
+  Running Phenix...
+Command: /Applications/phenix-1.20.1-4487/build/bin/phenix.map_model_cc /Users/structure_analysis/github/structure_tools/RSCC/work/7re3/7re3.pdb /Users/structure_analysis/github/structure_tools/RSCC/work/7re3/emd_24432.map resolution=3.33
+Running...
+
+Output format: map_model_cc
+
+--- Output tail (last 20 lines) ---
+F ADP 1003  0.6707  194.240 1.00
+F  MG 1004  0.7313  188.190 1.00
+F AF3 1005  0.6307  194.750 1.00
+G  ZN 2000  0.8512   60.890 1.00
+G  ZN 2001  0.8442   61.600 1.00
+G  MG 2002  0.8144   61.960 1.00
+G ADP 2003  0.7097   70.910 1.00
+K  ZN  701  0.7435  252.790 1.00
+K  ZN  702  0.3083  242.390 1.00
+K  ZN  703  0.4310  270.170 1.00
+K ADP  704  0.7640  417.880 1.00
+K  MG  705  0.5134  418.410 1.00
+K AF3  706  0.4750  422.930 1.00
+K 1N7  707  0.5650  172.250 1.00
+L  ZN 1000  0.7558  133.080 1.00
+L  ZN 1001  0.6903  147.100 1.00
+L  ZN 1002  0.5231  129.400 1.00
+L ADP 1003  0.5906  201.230 1.00
+L  MG 1004  0.8271  195.660 1.00
+L AF3 1005  0.6664  201.600 1.00
+Parsed 5276 records (map_model_cc)
+  ATOM   : 5248
+  HETATM : 28
+
+Chains: ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'P', 'Q', 'T', 'U']
+
+--- ATOM: first 10 rows ---
+Saved (ATOM): /Users/structure_analysis/github/structure_tools/RSCC/work/7re3/7re3_rscc_atom.csv  (5248 rows)
+Saved (HETATM): /Users/structure_analysis/github/structure_tools/RSCC/work/7re3/7re3_rscc_hetatm.csv  (28 rows)
+
+--- ATOM CSV preview (first 5 lines) ---
+chain_id,chain_description,chain_residue_count,residue_number,residue_name,rscc
+A,RNA-directed RNA polymerase,932,3,ASP,0.6754
+A,RNA-directed RNA polymerase,932,4,ALA,0.7512
+A,RNA-directed RNA polymerase,932,5,GLN,0.8842
+A,RNA-directed RNA polymerase,932,6,SER,0.882
+A,RNA-directed RNA polymerase,932,7,PHE,0.8845
+  Saved: work/7re3/7re3_rscc_chains_AEF_atom.csv (2107 rows)
+  Saved: /Users/structure_analysis/github/structure_tools/RSCC/work/plots_aef/7re3_rscc_chains_AEF_atom.png
+  Saved: /Users/structure_analysis/github/structure_tools/RSCC/work/plots_aef/7re3_rscc_chain_A.png
+  Saved: /Users/structure_analysis/github/structure_tools/RSCC/work/plots_aef/7re3_rscc_chain_E.png
+  Saved: /Users/structure_analysis/github/structure_tools/RSCC/work/plots_aef/7re3_rscc_chain_F.png
+
+============================================================
+Completed: 9 / 10
+Failures:
+  7XCN: phenix.real_space_correlation failed (exit 1)
+Plots directory: /Users/structure_analysis/github/structure_tools/RSCC/work/plots_aef

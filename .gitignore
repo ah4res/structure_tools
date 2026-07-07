@@ -4,6 +4,7 @@ RSCC/work/
 # PISA work directory
 PISA/results/
 PISA/work/
+PISA/data/
 
 # Jupyter
 .ipynb_checkpoints/

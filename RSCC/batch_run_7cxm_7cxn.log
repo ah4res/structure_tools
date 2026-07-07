@@ -1,0 +1,180 @@
+All required Python packages are already installed.
+
+============================================================
+Processing 7CXM
+============================================================
+PDB ID     : 7CXM
+Work dir   : /Users/structure_analysis/github/structure_tools/RSCC/work/7cxm
+phenix.real_space_correlation : /Applications/phenix-1.20.1-4487/build/bin/phenix.real_space_correlation
+phenix.map_model_cc           : /Applications/phenix-1.20.1-4487/build/bin/phenix.map_model_cc
+gemmi                         : /Applications/ccp4-8.0/bin/gemmi
+
+All required tools are available.
+Skip (already exists): work/7cxm/7cxm.pdb
+Experiment methods: ['ELECTRON MICROSCOPY']
+
+--- PDB preview (first 5 lines) ---
+HEADER    VIRAL PROTEIN/RNA                       02-SEP-20   7CXM              
+TITLE     ARCHITECTURE OF A SARS-COV-2 MINI REPLICATION AND TRANSCRIPTION       
+TITLE    2 COMPLEX                                                              
+COMPND    MOL_ID: 1;                                                            
+COMPND   2 MOLECULE: RNA-DIRECTED RNA POLYMERASE;                               
+  Download PDB: https://files.rcsb.org/download/7CXM.pdb
+  Saved: work/7cxm/7cxm.pdb (1,818,369 bytes)
+  Experiment methods: ['ELECTRON MICROSCOPY']
+chain_id           chain_description  chain_residue_count
+       A RNA-directed RNA polymerase                  942
+       B    Non-structural protein 8                  198
+       C    Non-structural protein 7                   83
+       D    Non-structural protein 8                  198
+       E                    Helicase                  601
+       F                    Helicase                  601
+       I                RNA (25-MER)                   25
+       J                    ZINC ION                    1
+       K                    ZINC ION                    1
+       L                    ZINC ION                    1
+       M                    ZINC ION                    1
+       N                    ZINC ION                    1
+       O                    ZINC ION                    1
+       P                    ZINC ION                    1
+       Q                    ZINC ION                    1
+Resolved data mode: cryoem
+Primary EMDB ID: EMD-30492
+Downloaded: work/7cxm/emd_30492.map.gz (339,778,738 bytes)
+Decompressed: work/7cxm/emd_30492.map (359,662,592 bytes)
+Resolution: 2.9 Å
+Density data : work/7cxm/emd_30492.map
+Phenix tool  : map_model_cc
+  Skip Phenix (existing CSV): work/7cxm/7cxm_rscc_atom.csv
+  Saved: work/7cxm/7cxm_rscc_chains_AEF_atom.csv (2118 rows)
+  Saved: /Users/structure_analysis/github/structure_tools/RSCC/work/plots_aef/7cxm_rscc_chains_AEF_atom.png
+  Saved: /Users/structure_analysis/github/structure_tools/RSCC/work/plots_aef/7cxm_rscc_chain_A.png
+  Saved: /Users/structure_analysis/github/structure_tools/RSCC/work/plots_aef/7cxm_rscc_chain_E.png
+  Saved: /Users/structure_analysis/github/structure_tools/RSCC/work/plots_aef/7cxm_rscc_chain_F.png
+
+============================================================
+Processing 7CXN
+============================================================
+PDB ID     : 7CXN
+Work dir   : /Users/structure_analysis/github/structure_tools/RSCC/work/7cxn
+phenix.real_space_correlation : /Applications/phenix-1.20.1-4487/build/bin/phenix.real_space_correlation
+phenix.map_model_cc           : /Applications/phenix-1.20.1-4487/build/bin/phenix.map_model_cc
+gemmi                         : /Applications/ccp4-8.0/bin/gemmi
+
+All required tools are available.
+Skip (already exists): work/7cxn/7cxn.pdb
+Experiment methods: ['ELECTRON MICROSCOPY']
+
+--- PDB preview (first 5 lines) ---
+HEADER    VIRAL PROTEIN/RNA                       02-SEP-20   7CXN              
+TITLE     ARCHITECTURE OF A SARS-COV-2 MINI REPLICATION AND TRANSCRIPTION       
+TITLE    2 COMPLEX                                                              
+COMPND    MOL_ID: 1;                                                            
+COMPND   2 MOLECULE: RNA-DIRECTED RNA POLYMERASE;                               
+  Download PDB: https://files.rcsb.org/download/7CXN.pdb
+  Saved: work/7cxn/7cxn.pdb (1,817,316 bytes)
+  Experiment methods: ['ELECTRON MICROSCOPY']
+chain_id           chain_description  chain_residue_count
+       A RNA-directed RNA polymerase                  942
+       B    Non-structural protein 8                  198
+       C    Non-structural protein 7                   83
+       D    Non-structural protein 8                  198
+       E                    Helicase                  601
+       F                    Helicase                  601
+       I                  Primer RNA                   25
+       J                    ZINC ION                    1
+       K                    ZINC ION                    1
+       L                    ZINC ION                    1
+       M                    ZINC ION                    1
+       N                    ZINC ION                    1
+       O                    ZINC ION                    1
+       P                    ZINC ION                    1
+       Q                    ZINC ION                    1
+Resolved data mode: cryoem
+Primary EMDB ID: EMD-30493
+Downloaded: work/7cxn/emd_30493.map.gz (339,928,822 bytes)
+Decompressed: work/7cxn/emd_30493.map (359,662,592 bytes)
+Resolution: 3.84 Å
+Density data : work/7cxn/emd_30493.map
+Phenix tool  : map_model_cc
+  Skip Phenix (existing CSV): work/7cxn/7cxn_rscc_atom.csv
+  Saved: work/7cxn/7cxn_rscc_chains_AEF_atom.csv (2118 rows)
+  Saved: /Users/structure_analysis/github/structure_tools/RSCC/work/plots_aef/7cxn_rscc_chains_AEF_atom.png
+  Saved: /Users/structure_analysis/github/structure_tools/RSCC/work/plots_aef/7cxn_rscc_chain_A.png
+  Saved: /Users/structure_analysis/github/structure_tools/RSCC/work/plots_aef/7cxn_rscc_chain_E.png
+  Saved: /Users/structure_analysis/github/structure_tools/RSCC/work/plots_aef/7cxn_rscc_chain_F.png
+
+Completed: 2 / 2
+       A RNA-directed RNA polymerase                  942
+       B    Non-structural protein 8                  198
+       C    Non-structural protein 7                   83
+       D    Non-structural protein 8                  198
+       E                    Helicase                  601
+       F                    Helicase                  601
+       I                  Primer RNA                   25
+       J                    ZINC ION                    1
+       K                    ZINC ION                    1
+       L                    ZINC ION                    1
+       M                    ZINC ION                    1
+       N                    ZINC ION                    1
+       O                    ZINC ION                    1
+       P                    ZINC ION                    1
+       Q                    ZINC ION                    1
+Resolved data mode: cryoem
+Primary EMDB ID: EMD-30493
+Downloaded: work/7cxn/emd_30493.map.gz (339,928,822 bytes)
+Decompressed: work/7cxn/emd_30493.map (359,662,592 bytes)
+Resolution: 3.84 Å
+Density data : work/7cxn/emd_30493.map
+Phenix tool  : map_model_cc
+  Running Phenix...
+Command: /Applications/phenix-1.20.1-4487/build/bin/phenix.map_model_cc /Users/structure_analysis/github/structure_tools/RSCC/work/7cxn/7cxn.pdb /Users/structure_analysis/github/structure_tools/RSCC/work/7cxn/emd_30493.map resolution=3.84
+Running...
+
+Output format: map_model_cc
+
+--- Output tail (last 20 lines) ---
+E LEU  585  0.9051  220.130 1.00
+E GLN  586  0.9523  218.090 1.00
+E PHE  587  0.8940  226.100 1.00
+E THR  588  0.9258  239.500 1.00
+E SER  589  0.9029  252.500 1.00
+E LEU  590  0.8208  267.300 1.00
+E GLU  591  0.8937  286.110 1.00
+E ILE  592  0.6521  283.150 1.00
+E PRO  593  0.7292  289.320 1.00
+E ARG  594  0.8879  291.290 1.00
+E ARG  595  0.4984  284.560 1.00
+E ASN  596  0.6179  289.370 1.00
+A  ZN 1001  0.8848  168.120 1.00
+A  ZN 1002  0.9201  172.000 1.00
+F  ZN 1000  0.9233  249.130 1.00
+F  ZN 1001  0.9227  292.690 1.00
+F  ZN 1002  0.9211  256.790 1.00
+E  ZN  701  0.9043  183.400 1.00
+E  ZN  702  0.8903  226.770 1.00
+E  ZN  703  0.8917  172.620 1.00
+Parsed 2628 records (map_model_cc)
+  ATOM   : 2620
+  HETATM : 8
+
+Chains: ['A', 'B', 'C', 'D', 'E', 'F', 'I', 'J', 'L']
+
+--- ATOM: first 10 rows ---
+Saved (ATOM): /Users/structure_analysis/github/structure_tools/RSCC/work/7cxn/7cxn_rscc_atom.csv  (2620 rows)
+Saved (HETATM): /Users/structure_analysis/github/structure_tools/RSCC/work/7cxn/7cxn_rscc_hetatm.csv  (8 rows)
+
+--- ATOM CSV preview (first 5 lines) ---
+chain_id,chain_description,chain_residue_count,residue_number,residue_name,rscc
+A,RNA-directed RNA polymerase,942,4,ALA,0.8955
+A,RNA-directed RNA polymerase,942,5,GLN,0.9377
+A,RNA-directed RNA polymerase,942,6,SER,0.9555
+A,RNA-directed RNA polymerase,942,7,PHE,0.8828
+A,RNA-directed RNA polymerase,942,8,LEU,0.9104
+  Saved: work/7cxn/7cxn_rscc_chains_AEF_atom.csv (2118 rows)
+  Saved: /Users/structure_analysis/github/structure_tools/RSCC/work/plots_aef/7cxn_rscc_chains_AEF_atom.png
+  Saved: /Users/structure_analysis/github/structure_tools/RSCC/work/plots_aef/7cxn_rscc_chain_A.png
+  Saved: /Users/structure_analysis/github/structure_tools/RSCC/work/plots_aef/7cxn_rscc_chain_E.png
+  Saved: /Users/structure_analysis/github/structure_tools/RSCC/work/plots_aef/7cxn_rscc_chain_F.png
+
+Completed: 2 / 2
